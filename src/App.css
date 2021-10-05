@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.meme span{
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 25px;
+  font-size: 38px;
+  color: white;
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
+
+.meme span:nth-child(3){ /*el EL 3 ya que tenemos un br antes del segundo span y lo toma como un hijo es para idicarle que solo queremos que afecte al segundo span YA QUE ES COMO IN INDICE del div meme*/
+  margin-top: 300px;
+}
+.meme img{
+  
+  width: 375px;
+  height: 812;
+}
+
+body .meme{
+  background: transparent;
+}
+
